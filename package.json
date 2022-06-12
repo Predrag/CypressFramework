@@ -1,0 +1,16 @@
+{
+  "name": "cypresstesty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:dev:open": "cypress open --browser flatpak run com.microsoft.Edge --e2e --config-file cypress.config.ts",
+    "cypress:stage:open": "cypress open --browser electron --e2e --config-file cypress.stage.config.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "10.1.0",
+    "typescript": "^4.7.3"
+  }
+}
